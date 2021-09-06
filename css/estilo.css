@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor > *{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 75);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor {
+    width: 98%;
+	margin: 10px auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: auto 30% auto;
+
+   grid-template-areas: 
+        "promociones main"
+        "promociones info"
+        "footer footer"
+   ;
+}
+
+.contenedor .promociones {
+    grid-area: promociones;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    
+}
+
+.contenedor .main {
+    grid-area: main;
+}
+
+.contenedor .info {
+    grid-area: info;
+}
+
+.contenedor .footer {
+    grid-area: footer;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
