@@ -7,9 +7,11 @@
 body {
     background: #C9CCD5;
 }
-
+/* .visionmisio{
+text-align: right;
+} */
 .contenedor > *{
-    box-shadow: 1px 3px 13px -8px #000000;
+    /* box-shadow: 1px 3px 13px -8px #000000; */
     padding: 10px;
     text-align: center;
 }
@@ -19,9 +21,9 @@ body {
     width: 100%;
 	margin: 0px auto;
     display: grid;
-    grid-gap: 6px;
+    /* grid-gap: 6px; */
     grid-template-columns: 20% auto;
-    grid-template-rows: auto 5% 40% 30% auto;
+    grid-template-rows: auto 5% 70% 20% auto;
 }
 
 /* Aquí le doy bordes redondeados solo a los elementos seleccionados */
@@ -33,13 +35,15 @@ body {
 
 .contenedor .header{
     grid-column: span 2;
-    background: #112031;
+    background:rgb(255, 72, 72) ;
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 30px;
     padding: 0;
-    color: white;
+    color: black;
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
 }
 
 .contenedor .header .logo {
@@ -49,10 +53,12 @@ body {
 .navegacion {
     grid-column: span 2;
     grid-row: 2 / 3;
-    background: #152D35;
+    background:black;
     display: flex;
     justify-content: start;
     align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
 }
 
 .navegacion ul {
@@ -74,34 +80,40 @@ body {
 }
 
 .menu li a:hover {
-    background: #7C83FD;
+    background:rgb(255, 72, 72);
 }
 
 .contenedor .promociones {
     /* grid-area: promociones; */
     grid-column: 1 / 2;
     grid-row: 3 / 5;
-    background: #345B63;
+    background: #ff8d0a;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
     color: white;
-    margin-left:6px;
+    
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+}
+.titulocarrucel{
+    font-family: 'Great Vibes', cursive;
+     
 }
 
 .contenedor .main {
     /* grid-area: main; */
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    background: #D4ECDD;
+    background: rgb(255, 227, 227);
 }
 
 .contenedor .info {
     /* grid-area: info;  */
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-    background: #96BAFF;
+    background: rgb(191, 162, 219);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +124,8 @@ body {
     /* grid-area: footer; */
     grid-column: 1 / 3;
     grid-row: 5 / 6;
-    background: #152D35;
+    background: black;
+    color: blanchedalmond;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,10 +137,12 @@ body {
     /* display: block; */
     width: 100%;
     margin: 10px;
+
+
 }
 
 .buttom {
-    background: #112031;
+    background: black);
     padding: auto;
     width: 100%;
 }
