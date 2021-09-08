@@ -81,7 +81,7 @@ text-align: right;
     /* grid-area: promociones; */
     grid-column: 1 / 2;
     grid-row: 3 / 5;
-    background: #ff8d0a;
+    background: #cc5543;
     display: flex;
     justify-content: start;
     align-items: center;
