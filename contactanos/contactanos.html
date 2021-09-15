@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <title>WALL-E electronics</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Contáctanos</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 
 <body>
@@ -34,13 +35,8 @@
             <ul class="menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Tipos de Electrodomésticos</a>
-                    <!-- <ul class="sub-menu">
-                        <li><a href="#">Cocina</a></li>
-                        <li><a href="#">Belleza</a></li>
-                        <li><a href="#">Entretenimiento</a></li>
-                    </ul> -->
                 </li>
-                <li><a href="contactanos/contactanos.html">Contactanos</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
             </ul>
         </nav>
 
@@ -52,29 +48,50 @@
         </aside>
     
         <main class="main">
-            <img class="img" src="images/foto-main.png" alt="septiembre">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Dirección de Correo Electrónico: </label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">No compartiremos su correo con personas ajenas a nuestra organización.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Nombre completo: </label>
+                    <input type="text" class="form-control">
+                    <label for="exampleInputEmail1" class="form-label">Celular: </label>
+                    <input type="text" class="form-control">
+                    <label for="exampleInputEmail1" class="form-label">¿Que tal te parecen nuestros productos? </label>
+                </div>
+               
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Excelentes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Buenos</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Regulares</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Malos</label>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba aquí su mensaje para la organización:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Adjuntar Evidencias</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
 
         </main>
         
-        <div class="info">    
-            <div class="mision">
-                <h3 >MISIÓN</h3>
-                <p>
-                         Brindar confort y practicidad a las personas poniendo a su disposición la mayor variedad de muebles y electrodomésticos para sus hogares, negocios y oficinas, y gestionando los negocios de manera que creen valor para la sociedad, nuestros colaboradores y la compañía.
-                </p>
-            </div>
-
-            <div class="vision">
-                <h3>VISIÓN</h3>
-                <p>
-                       Ser la empresa líder en comercialización de muebles y electrodomésticos a nivel nacional; reconocida por la calidad, excelencia operativa y continua innovación.
-                </p>
-            </div>
-                
-            
-               
-                
-        </div>
+    
     
         <footer class="footer">
             <div class="content-foo1">  
