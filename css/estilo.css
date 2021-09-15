@@ -101,6 +101,8 @@ text-align: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(-45deg, #000000 50%, #f82626 50%);
+    font-family: 'Raleway', sans-serif;
 }
 
 .contenedor .main .img {
@@ -202,7 +204,65 @@ text-align: right;
 
 
 
+/* estilos del carrucel */
+.titulocarousel {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: #fff;
+}
 
+.subtitulocarousel {
+    margin: 0;
+    color: #000;
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.descripcion { 
+    color: #fff;
+    margin: 7px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7); 
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+/* .linea-division {
+    width: 80%;
+    height: 2px;
+    background-color: #36221c;
+} */
+.carousel{
+    /* para que abarque todo el espacio */
+    min-height: 500px;
+    
+}
+
+/* estilos al carrusel */
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;/*para que no lo puedan seleccionar */
+    width: 300px;
+    height: 300px;
+
+}
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* no se demorme la imagen */
+    position: absolute; /* imagen de fondo */
+    top: 0;
+    left: 0;
+    z-index: -1; /* enviar imagen al fondo del texto*/
+    border-radius: 15px;
+}
 
 
 
