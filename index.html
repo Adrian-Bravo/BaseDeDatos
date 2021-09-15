@@ -15,6 +15,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
+
+     <!-- Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+     <!-- materializate css -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+ <!-- CSS Estilos -->
+ <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -32,29 +41,77 @@
 
         <nav class="navegacion">
             <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Tipos de Electrodomésticos</a>
+                <li class="titulocarousel"><a href="index.html">Inicio</a></li>
+                <li class="titulocarousel"><a href="#">Tipos de Electrodomésticos</a>
                     <!-- <ul class="sub-menu">
                         <li><a href="#">Cocina</a></li>
                         <li><a href="#">Belleza</a></li>
                         <li><a href="#">Entretenimiento</a></li>
                     </ul> -->
                 </li>
-                <li><a href="./contactanos.html">Contactanos</a></li>
+                <li class="titulocarousel"><a href="contactanos.html">Contactanos</a></li>
             </ul>
         </nav>
 
         <aside class="promociones">
-            <h2 class="titulo">Promociones</h2>
+            <h2 class="titulocarousel">Promociones</h2>
             <img class="img" src="images/oferta_nevera.jpg" alt="oferta de neveras marca LG">
             <img class="img" src="images/oferta_secador.PNG" alt="oferta de secador marca Remington">
             <img class="img" src="images/oferta_televisor.PNG" alt="oferta de televisor cinema 3D">
         </aside>
     
         <main class="main">
-            <img class="img" src="images/foto-main.png" alt="septiembre">
-        </main>
+            <div class= "container">
+                <div class="row">
+                    <div class="col s12"></div>
+                      <h3 class="center-align titulocarousel">¿Como te consentiras hoy?</h3>
+                       
+                      <div class="carousel center-align">
+                          <div class="carousel-item">
+                              <h2 class="subtitulocarousel"></h2>
+                              <div class="linea-division"></div>
+                              <p class="descripcion"> </p>
+                              <img src="images/articulo1.png" alt="imagen de walle ">
+                            </div>
         
+                          
+                           <div class="carousel-item">
+        
+                               <h4 class="subtitulocarousel">Radiofrecuencial Facial</h4>
+                               <div class="linea-division"></div>
+                               <p class="descripcion"> Antes acudiamos a centros especializados ahora es desde casa  </p>
+                               <img src="images/radiofrecuencia-facial.jpg" alt="imagen radofrcuencia">
+                            </div>
+        
+                            <div class="carousel-item">
+        
+                                <h2 class="subtitulocarousel">Galaxy Z Fold 2 5G</h2>
+                                <div class="linea-division"></div>
+                                <p class="descripcion"> El mejor teléfono plegable </p>
+                                <img src="images/celular.jpg" alt="imagen celular">
+                             </div>
+        
+                             <div class="carousel-item">
+        
+                                <h2 class="subtitulocarousel">Cocina Moderna</h2>
+                                <div class="linea-division"></div>
+                                <p class="descripcion"> Lo ultimo en innovacion </p>
+                                <img src="images/cocinamoderna.jpg" alt="imagen de cocina ">
+                            </div>
+        
+        
+        
+        
+        
+                            
+                        </div>
+                    </div>
+                </div> 
+            <!-- </div> -->
+            
+
+        </main>
+       
         <div class="info">    
             <div class="mision">
                 <h3 >MISIÓN</h3>
@@ -69,7 +126,10 @@
                        Ser la empresa líder en comercialización de muebles y electrodomésticos a nivel nacional; reconocida por la calidad, excelencia operativa y continua innovación.
                 </p>
             </div>
-       
+                
+            
+               
+                
         </div>
     
         <footer class="footer">
@@ -103,7 +163,13 @@
             
         </footer>
     </div>
-    
+      <!-- materializate js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+      <!-- JS Main -->
+     
+      <script src="./js/main.js"></script>   
+      
 </body>
     
 </html>
