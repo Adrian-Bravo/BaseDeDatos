@@ -98,16 +98,17 @@ text-align: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
-/* .contenedor .main .img {
+ /* .contenedor .main > form {
     padding: 0;
     margin: 0 auto;
     width: 100%;
     height: auto;
     border-radius: 5px;
     box-shadow: 1px 3px 13px -8px #000000;;
-} */
+}  */
 
 .contenedor .footer {
     /* grid-area: footer; */
