@@ -98,7 +98,10 @@ text-align: right;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    gap: 30px;
 }
+
 
 /* .contenedor .main .img {
     padding: 0;
@@ -107,7 +110,8 @@ text-align: right;
     height: auto;
     border-radius: 5px;
     box-shadow: 1px 3px 13px -8px #000000;;
-} */
+}  */
+
 
 .contenedor .footer {
     /* grid-area: footer; */
