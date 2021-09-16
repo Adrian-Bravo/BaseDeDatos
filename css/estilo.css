@@ -267,5 +267,42 @@ h1 {
     ;
 }
 
+@media (max-width: 600px){
+    .contenedor {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template: 
+        "header" auto
+        "navegador" auto
+        "main" auto
+        "sidebar" auto
+        "info" auto
+        "footer" auto /
+        auto
+        ;
+    }
+
+    .navegador {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu {
+        margin-left: 0;
+    }
+
+    .contenedor .promociones {
+        display: flex;
+        flex-direction: row;
+    }
+    .contenedor .promociones img {
+        width: 20%;
+        margin: 5px;
+        border-radius: 6px;
+        
+    }
+}
+
 
 
