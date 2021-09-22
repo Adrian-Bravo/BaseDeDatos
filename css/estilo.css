@@ -65,13 +65,38 @@ h1 {
     color: white;
 }
 
+/* submenu */
+.container-submenu{
+    position:relative;
+    /* display:block; */
+}
+.submenu{
+position:absolute;
+top:63px;
+width: auto;
+overflow: visible;
+z-index:1000;
+opacity:0;
+visibility:hidden;
+background: black;
+}
+.container-submenu:hover .submenu {
+    opacity:1;
+    visibility: visible;
+    display:block;
+}
+.menu .submenu  li:hover{
+    background: rgb(255, 72, 72);
+    width:100%;
+}
+/* Hasta aquí va el estilo del submenu TypeScript */
 .menu li:hover{
     background: rgb(255, 72, 72);
 }
 
 .contenedor .promociones {
     grid-area: sidebar;
-    /* background: #cc5543; */
+    background: #cc5543;
     display: flex;
     justify-content: flex-start;
     align-items: center;
