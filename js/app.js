@@ -8,3 +8,11 @@ for (let index = 0; index < lista.length; index++) {
 }
 let lista1 = [1, 4, 6, 7, 9];
 console.log(lista1);
+let tuple = [1, "Jaider Quintero"];
+console.log(tuple[1]);
+let tuple2 = [
+    1, "Jaider", "Quintero", 44
+];
+tuple2.forEach(element => {
+    console.log(element);
+});
