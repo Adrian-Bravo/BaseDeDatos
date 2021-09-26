@@ -7,9 +7,6 @@
 body {
     background: #C9CCD5;
 }
-/* .visionmisio{
-text-align: right;
-} */
 
 .contenedor .header,
 .contenedor .main,
@@ -41,60 +38,46 @@ h1 {
 
 .navegacion {
     grid-area: navegador;
-    background:black;
+    background:rgb(20, 20, 20);
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 16px;
 }
 
-.navegacion ul {
-    list-style: none;
+.navegacion a {
+    display: block;
 }
 
-.menu {
+.navegacion a:hover {
+    background: #C12B2B;
+}
+
+.navegacion .menu {
+    list-style: none;
     display: flex;
+    position: relative;
     justify-content: start;
     align-items: center;
     margin-left: 50px;
+    margin-right: 20px;
 }
 
-.menu li>a {
-    text-decoration: none;
-    color: white;
+.navegacion .menu li .submenu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    background: rgb(20, 20, 20);
+    display: none;
+    width: 180px;
+    transition: opacity 1.5s;
 }
 
-/* submenu */
-.container-submenu{
-    position:relative;
-    /* display:block; */
-}
-
-.submenu{
-position:absolute;
-top:63px;
-width: auto;
-overflow: visible;
-z-index:1000;
-opacity:0;
-visibility:hidden;
-background: black;
-}
-
-.container-submenu:hover .submenu {
-    opacity:1;
-    visibility: visible;
-    display:block;
-}
-
-.menu .submenu  li:hover{
-    background: rgb(255, 72, 72);
-    width:100%;
-}
-/* Hasta aquí va el estilo del submenu TypeScript */
-.menu li:hover{
-    background: rgb(255, 72, 72);
+.navegacion .menu li:hover > .submenu{
+    display: flex;
+    flex-direction: column;
 }
 
 .contenedor .promociones {
@@ -120,7 +103,7 @@ background: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(-45deg, #000000 50%, #f82626 50%);
+    /* background-image: linear-gradient(-45deg, #000000 50%, #f82626 50%); */
     font-family: 'Raleway', sans-serif;
 }
 
