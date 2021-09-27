@@ -49,7 +49,8 @@ text-align: right;
     grid-row: 2 / 3;
     background:black;
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
+    justify-content: space-between;
     align-items: center;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 16px;
@@ -57,7 +58,6 @@ text-align: right;
 
 .navegacion ul {
     list-style: none;
-    /* margin-left: 50px; */
 }
 
 .menu {
@@ -67,22 +67,17 @@ text-align: right;
     margin-left: 50px;
 }
 
-/* .menu > li{
-	position: relative;
-	display: inline-block;
-} */
 
 .menu li > a{
 	display: block;
 	text-decoration: none;
-    padding: 17px 14px;
+    padding: 15px 14px 15px;
     color: white;
-    margin-top: 11px;
+    margin-top: 0px;
 }
 /* submenu */
 .container-submenu{
     position:relative;
-    /* display:block; */
 }
 .submenu{
 position:absolute;
@@ -105,7 +100,7 @@ background: black;
 }
 .menu li a:hover {
     background:rgb(255, 72, 72);
-    /* margin-top: 10px; */
+  
 }
 
 .contenedor .promociones {
