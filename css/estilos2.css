@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+   
+    background-color: rgb(139, 139, 139);
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    
+}
+
+
+.page-nav{
+    background-color: rgb(255, 60, 0);
+    border: 3px solid black;
+}
+.page-content{
+    display:-webkit-inline-flex;
+    justify-content: space-evenly;
+    border: 4px solid rgb(0, 0, 0);
+}
+.product-container{
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+}
+.product-container:hover{
+    box-shadow:0 8px 16px 0 solid rgba(red, green, blue, alpha);
+}
+.product-container img{
+    width: 300px;
+}
+.button-add {
+    border: 2px solid rgb(255, 60, 0);
+    transition-duration: 0.4s;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px ;
+    background-color: white;
+    color: black;
+    
+    right: 15px;
+    bottom: 10px;
+
+}
+  
+.button-add:hover {
+    background-color: #fb0404; 
+    color: rgb(148, 144, 144);
+}
