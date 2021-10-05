@@ -73,3 +73,16 @@ function sumNum (f:(x:number) => number, y:number){
 }
 console.log(sumNum(duplicador,10))
 console.log(sumNum(triplicador,40))
+
+let potencia2 = function(x:number):number{
+    return x**2
+}
+
+let potencia3 = function(x:number):number{
+    return x**3
+}
+function resNum (f:(x:number) => number, y:number){
+    return f(y) -2
+}
+console.log(resNum(potencia2,4))
+console.log(resNum(potencia3,3))
